@@ -1,0 +1,19 @@
+.dialogWindow {
+    background-color: #1d2459;
+    padding: 1.5rem 2rem;
+    border-image: url('./assets/dialogboxbg.png') 28 / 10px 10px 10px 10px stretch;
+    border-width: 5px;
+    border-style: solid;
+    overflow: hidden;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    cursor: pointer;
+    z-index: 100;
+    min-width: 400px;
+    max-width: 60%;
+    width: 500px;
+    height: 150px;
+}
