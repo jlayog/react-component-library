@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import Message from "./Message";
+import Message from "./util/Message";
 import { messages } from "../../datalist";
+import './index.css';
 
 const DialogBox = () => {
   const [currentMessage, setCurrentMessage] = useState(0);
